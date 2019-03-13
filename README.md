@@ -1,3 +1,5 @@
+# Introduction to Geospatial Visualisation
+
 This repository contains the contents of a short open course designed by Jeremy H. Kidwell at the University of Birmingham. The course is meant to provide a hands-on introduction to visualising geospatial data using the [Carto](https://carto.com) platform. This should be useful for a wide audience, but was originally designed for Undergraduate students with a humanities background. As you will see below, the course is designed around "challenges" which build on one another.
 
 The course here has been compiled with [bookdown](https://github.com/rstudio/bookdown), and so the live instance of the course is compiled from openly accessible resources located in this repository. If you're interested in doing something similar, there are a number of good options, including: [gitbook](https://docs.gitbook.com/), [mkdocs](https://www.mkdocs.org/), [readthedocs](https://readthedocs.org) which technically uses [Sphinx](http://www.sphinx-doc.org/en/master/) or [daux](https://daux.io/).
