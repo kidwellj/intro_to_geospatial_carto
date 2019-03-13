@@ -1,8 +1,8 @@
 pdf:
-	Rscript --quiet _render.R "bookdown::pdf_book"
+	Rscript --quiet index.Rmd "bookdown::pdf_book"
 
 gitbook:
-	Rscript --quiet _render.R "bookdown::gitbook"
+	Rscript --quiet index.Rmd "bookdown::gitbook"
 
 all:
-	Rscript --quiet _render.R
+	Rscript --quiet index.Rmd

@@ -1,15 +1,23 @@
-02-Session2.Rmd
+# Session 2
 
-# Challenge 2: Work with existing data
+## Challenge 2: Work with existing data
 
-Part 1, getting data:
-- Download some West Midlands crime statistics using the following file: [https://github.com/kidwellj/intro_to_geospatial_carto/raw/master/data/westmids_crime.zip] - note I've gotten these from here: [https://data.police.uk/](https://data.police.uk/).
-- There will be a whole bunch of files in there (2 years worth of monthly crime stats for the West Midlands). Unzip the file (by double-clicking on it), then find the folder `2018-12` and inside that the file `2018-12-west-midlands-street.csv`
-- Import the `2018-12-west-midlands-street.csv` data file into your carto account. In map view click "Add Layer" then click on "Connect Dataset", make sure "Data file" is selected and then click and drag the csv file onto "Drag and drop your file" (or click on "Browse" and locate it that way). 
+Now that you've learned how to work with your own simple data set, for this second session, we will work with some existing and more complex data. 
+
+### Part 1, getting data:
+
+Start off by downloading some West Midlands crime statistics using the following file: [https://github.com/kidwellj/intro_to_geospatial_carto/raw/master/data/westmids_crime.zip](https://github.com/kidwellj/intro_to_geospatial_carto/raw/master/data/westmids_crime.zip). If you type this URL into a web browser, it should begin to download automatically. Note, this data is a tidied version of publicly available police statistics that you can find here: [https://data.police.uk/](https://data.police.uk/).
+
+There will be a whole bunch of files in there (2 years worth of monthly crime stats for the West Midlands). Unzip the file (by double-clicking on it), then find the folder `2018-12` and inside that the file `2018-12-west-midlands-street.csv`
+
+Import the `2018-12-west-midlands-street.csv` data file into your carto account:
+- In map view click "Add Layer" then click on "Connect Dataset", make sure "Data file" is selected and then click and drag the csv file onto "Drag and drop your file" (or click on "Browse" and locate it that way). 
 - Click "Add layer" and the file will be uploaded into carto as a new data layer. This may take a wee while, so be patient.
 - Now you have a whole lot of new dots! Let's make those dots more meaningful with some visualisation tricks you've just learned in the previous challenge.
 
-Part 2, visualisation by category:
+### Part 2, visualisation by category:
+
+Open the toolbox to the right and the map layer wizard we just used in the previous session:
 - Switch your map style to "Category" and switch the column to "crime_type"
 - Carto does a lot of the hard work for you here, but you might want to do a bit of tweaking. 
 - Add some transparency so that overlapping dots darken a spot (change the number after marker fill from 0.9 to 0.6 or lower and watch what happens.
@@ -17,10 +25,11 @@ Part 2, visualisation by category:
 - There are a lot of categories here, and some of the colours assigned by Carto may be light/dark versions of the same colour. This can be a bit confusing as we're working with overlapping transparency. It's best if we can make sure all of the colours are unique. Experiment a bit with using different shapes or icons to differentiate categories. To change to a shape/icon click on "img" to the right of the category. Consider taking a diversion into the noun project here if you'd like to spend a bit more time on this (below).
 - Choose a basemap that looks nice for this map.
 - Set up your map so that it displays information on hover, I'd recommend crime_type, last_outcome_category, and reported_by - but will leave the details to you.
-- Polish off your map with a title!
-- This map does a good job of showing individual incidence of crimes and works best at a close zoom (level 15 or higher). Let's create a new layer now that shows a different kind of visualisation at a wider zoom.
+- Polish off your map with a title! You can add elements like a title by clicking on "Options" in the bottom left-hand corner.
 
-Part 3, visualisation by density:
+This map does a good job of showing individual incidence of crimes and works best at a close zoom (level 15 or higher). Let's create a new layer now that shows a different kind of visualisation at a wider zoom.
+
+### Part 3, visualisation by density:
 - Return to the main carto dashboard by clicking on "Maps" and "New Map"
 - From the add datasets window that appears, select from "Your Datasets" and then pick out your crime data table (default name is "table_2018_12_west_midlands_street" unless you've changed it). We're going to add the same data to our map as a new layer and configure it differently.
 - Once the new layer has been added, turn off display for the other two tables (using the small slider on the right of the title).
