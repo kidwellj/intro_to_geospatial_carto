@@ -2,5 +2,40 @@
 
 # Challenge 2: Work with existing data
 
-Part 1, getting data
-- Download some West Midlands crime statistics: 
+Part 1, getting data:
+- Download some West Midlands crime statistics using the following file: [https://github.com/kidwellj/intro_to_geospatial_carto/raw/master/data/westmids_crime.zip] - note I've gotten these from here: [https://data.police.uk/](https://data.police.uk/).
+- There will be a whole bunch of files in there (2 years worth of monthly crime stats for the West Midlands). Unzip the file (by double-clicking on it), then find the folder `2018-12` and inside that the file `2018-12-west-midlands-street.csv`
+- Import the `2018-12-west-midlands-street.csv` data file into your carto account. In map view click "Add Layer" then click on "Connect Dataset", make sure "Data file" is selected and then click and drag the csv file onto "Drag and drop your file" (or click on "Browse" and locate it that way). 
+- Click "Add layer" and the file will be uploaded into carto as a new data layer. This may take a wee while, so be patient.
+- Now you have a whole lot of new dots! Let's make those dots more meaningful with some visualisation tricks you've just learned in the previous challenge.
+
+Part 2, visualisation by category:
+- Switch your map style to "Category" and switch the column to "crime_type"
+- Carto does a lot of the hard work for you here, but you might want to do a bit of tweaking. 
+- Add some transparency so that overlapping dots darken a spot (change the number after marker fill from 0.9 to 0.6 or lower and watch what happens.
+- Change "marker stroke" (this is the outline for each dot) to "0" - now they overlap in a more tidy way
+- There are a lot of categories here, and some of the colours assigned by Carto may be light/dark versions of the same colour. This can be a bit confusing as we're working with overlapping transparency. It's best if we can make sure all of the colours are unique. Experiment a bit with using different shapes or icons to differentiate categories. To change to a shape/icon click on "img" to the right of the category. Consider taking a diversion into the noun project here if you'd like to spend a bit more time on this (below).
+- Choose a basemap that looks nice for this map.
+- Set up your map so that it displays information on hover, I'd recommend crime_type, last_outcome_category, and reported_by - but will leave the details to you.
+- Polish off your map with a title!
+- This map does a good job of showing individual incidence of crimes and works best at a close zoom (level 15 or higher). Let's create a new layer now that shows a different kind of visualisation at a wider zoom.
+
+Part 3, visualisation by density:
+- Return to the main carto dashboard by clicking on "Maps" and "New Map"
+- From the add datasets window that appears, select from "Your Datasets" and then pick out your crime data table (default name is "table_2018_12_west_midlands_street" unless you've changed it). We're going to add the same data to our map as a new layer and configure it differently.
+- Once the new layer has been added, turn off display for the other two tables (using the small slider on the right of the title).
+- On the new layer you've just added, open the pane for "filters" (icon is a bar charts).
+- Under "select a column to filter by" choose "crime_type".
+- Now choose just one specific type of crime to focus on (your choice). You can do this quickly by clicking on "clear selection" and then selecting a single option.
+- Zoom out to a wider area, zoom level 14 or 13.
+- Let's change the display on this - go back to map layer wizard. Try some different options which can help to show the density of crime incidence for the category you've chosen. I recommend that you try using a "density" or "heatmap". Tinker with settings for your map until it visually communicates the information in an effective way.
+- Now that you've finished putting together a map, let's add some extra bits to polish off the display.
+- Click on "options" on the bottom left side; then add a "fixed title" and "fixed description". Tinker with other options until you have a map you'd like to share.
+- Change the carto title for your map (very top of the window in your web browser, on the left side)
+- Cick on "Publish" in the upper right hand corner and send the link to a friend!
+
+## Possible diversion (icons!):
+
+If you want to spend some extra time on this, create yourself an account on [the Noun Project](https://thenounproject.com/) and download icons for each crime category. Please note: there are many icons here on a variety of different licenses. You should aim for free ones which have been produced under an open CreativeCommons license. 
+
+For more on licenses, have a watch on my [data ethics course](https://github.com/kidwellj/data_ethics-law_course), session two.
