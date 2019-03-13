@@ -1,0 +1,6 @@
+02-Session2.Rmd
+
+# Challenge 2: Work with existing data
+
+Part 1, getting data
+- Download some West Midlands crime statistics: 

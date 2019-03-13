@@ -1,0 +1,33 @@
+01-Session1.Rmd
+
+# Challenge 1: Find yourself on the map
+
+Goal: getting comfortable with the Carto interface
+
+Part 1, building a data set:
+- Carto, create empty map
+- Click "Add points"
+- Zoom and drag to UK, then to greater Birmingham (zoom level 10)
+- Click through basemaps until you find one you like
+- Now click and drag until you find your home (zoom level 17)
+- Add a point for your place of residence
+- Now switch to "data view"
+- Add a name and description for your point on the table
+- Add a new column (click on arrow next to "name" column) and click on "Add new column" give the column a new name "rating" and change the data type to "number"
+- Now choose a category to add some points of interest, maybe coffee shops, restaurants, study places, etc. Add at least five features to the map (click on the small button on the bottom right hand side - a circle with a +) which fit in this category. Make sure you are setting accurate locations (at zoom level 17). Now add "metadata" - give each point a name, brief description, and then fill in a number to rate those sites based on your personal sense of the place. I recommend you use a five point scale with 5 being "best" and 1 being "worst". 
+
+Part 2, visualising your data:
+- Zoom out so that you can see all your points
+- Open up the "map layer" toolbar on the right hand side.
+- Rename your table from "untitled table" to something descriptive (maybe "my coffee shops").
+- You should already be on the "wizards" pane (icon of square with paintbrush) but switch to this if you aren't already there
+- Change the map type from "simple" to "bubble"
+- Change the max radius to 50 so we'll have a more dramatic effect.
+- Change the bubble fill to your favourite colour.
+- Switch to the info window pane (icon of text bubble) - note that there are tabs for "click" and "hover"
+- Set the "hover" setting to display the name of each of your sites and the "click" setting to show name and description. 
+- Make the dots 60% transparent (0.6)
+- Now zoom out (zoom level 12 or lower).
+- Try out a few different map types to see which is best for visualising your data at this zoom level. Try "choropleth," "heat map" and "intensity".
+
+Now you're familiar with the basics of Carto! Let's move onto the next challenge.
