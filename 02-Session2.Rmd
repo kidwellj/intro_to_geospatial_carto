@@ -5,12 +5,15 @@
 Now that you've learned how to work with your own simple data set, for this second session, we will work with some existing and more complex data. 
 
 ### Part 1, getting data:
+  
+Start off by downloading some West Midlands crime statistics using the following file: <https://github.com/kidwellj/intro_to_geospatial_carto/raw/master/data/westmids_crime.zip>. If you type this URL into a web browser, it should begin to download automatically. 
 
-Start off by downloading some West Midlands crime statistics using the following file: [https://github.com/kidwellj/intro_to_geospatial_carto/raw/master/data/westmids_crime.zip](https://github.com/kidwellj/intro_to_geospatial_carto/raw/master/data/westmids_crime.zip). If you type this URL into a web browser, it should begin to download automatically. Note, this data is a tidied version of publicly available police statistics that you can find here: [https://data.police.uk/](https://data.police.uk/).
+*Note, this data is a tidied version of publicly available police statistics that you can find here: [https://data.police.uk/](https://data.police.uk/).*
 
 There will be a whole bunch of files in there (2 years worth of monthly crime stats for the West Midlands). Unzip the file (by double-clicking on it), then find the folder `2018-12` and inside that the file `2018-12-west-midlands-street.csv`
 
 Import the `2018-12-west-midlands-street.csv` data file into your carto account:
+
 - In map view click "Add Layer" then click on "Connect Dataset", make sure "Data file" is selected and then click and drag the csv file onto "Drag and drop your file" (or click on "Browse" and locate it that way). 
 - Click "Add layer" and the file will be uploaded into carto as a new data layer. This may take a wee while, so be patient.
 - Now you have a whole lot of new dots! Let's make those dots more meaningful with some visualisation tricks you've just learned in the previous challenge.
@@ -18,6 +21,7 @@ Import the `2018-12-west-midlands-street.csv` data file into your carto account:
 ### Part 2, visualisation by category:
 
 Open the toolbox to the right and the map layer wizard we just used in the previous session:
+
 - Switch your map style to "Category" and switch the column to "crime_type"
 - Carto does a lot of the hard work for you here, but you might want to do a bit of tweaking. 
 - Add some transparency so that overlapping dots darken a spot (change the number after marker fill from 0.9 to 0.6 or lower and watch what happens.
@@ -41,10 +45,16 @@ This map does a good job of showing individual incidence of crimes and works bes
 - Now that you've finished putting together a map, let's add some extra bits to polish off the display.
 - Click on "options" on the bottom left side; then add a "fixed title" and "fixed description". Tinker with other options until you have a map you'd like to share.
 - Change the carto title for your map (very top of the window in your web browser, on the left side)
-- Cick on "Publish" in the upper right hand corner and send the link to a friend!
+- Cick on "Publish" in the upper right hand corner and email me (j.kidwell@bham.ac.uk) the link to your map!
+
+## Extra credit:
+
+If you have some time left go back to session 1 and look back over the maps in those galleries. What makes these projects effective? In particular, how do they use design to communicate? And how do those maps use spatial representation, i.e. points and shapes on a map, to convey information?
+
 
 ## Possible diversion (icons!):
 
 If you want to spend some extra time on this, create yourself an account on [the Noun Project](https://thenounproject.com/) and download icons for each crime category. Please note: there are many icons here on a variety of different licenses. You should aim for free ones which have been produced under an open CreativeCommons license. 
 
 For more on licenses, have a watch on my [data ethics course](https://github.com/kidwellj/data_ethics-law_course), session two.
+

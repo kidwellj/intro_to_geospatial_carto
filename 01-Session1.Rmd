@@ -1,10 +1,34 @@
 # Session 1
 
+## Introduction - Map Gallery
+
+Geospatial visualisation (e.g. "online maps") are becoming increasingly important for public communication and policy analysis. Let's start by looking at some digital maps to see how this works in practice:
+
+Example 1, international environmental and development NGOs: 
+
+- <https://ngoaidmap.org/>
+- <https://www.globalforestwatch.org/map>
+- <https://resourcewatch.org/data/pulse>
+- <https://www.vizzuality.com/projects/half-earth>
+- <http://geocat.kew.org/>
+
+Example 2, local municipalities
+
+- <http://www.di.unito.it/~schifane/smellymaps/>
+- <http://www.urbandisplacement.org/migrationmap>
+- <https://qhood01.github.io/nycSQF/>
+- <http://openseweratlas.tumblr.com/map>
+- <http://www.arqueocordoba.com/rutas/index_en.html>
+
+Lots of samples here: <https://opendata.cityofnewyork.us/projects/>
+  
+...and here: <https://carto.com/gallery/>
+
 ## Challenge 1: Find yourself on the map
 
 Goal: getting comfortable with the Carto interface
 
-First, log into your account at [https://carto.com/login](https://carto.com/login). Once you are logged in you can start to tinker with the platform.
+First, log into your account at <https://carto.com/login>. Once you are logged in you can start to tinker with the platform.
 
 Let's begin by building a data set, so you can get a sense of how those points get on the (digital) map.
 
