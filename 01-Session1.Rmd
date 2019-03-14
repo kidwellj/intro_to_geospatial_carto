@@ -1,6 +1,6 @@
-# Session 1
+# Session 1 {-}
 
-## Introduction - Map Gallery
+# Introduction - Map Gallery
 
 Geospatial visualisation (e.g. "online maps") are becoming increasingly important for public communication and policy analysis. Let's start by looking at some digital maps to see how this works in practice:
 
@@ -24,7 +24,7 @@ Lots of samples here: <https://opendata.cityofnewyork.us/projects/>
   
 ...and here: <https://carto.com/gallery/>
 
-## Challenge 1: Find yourself on the map
+# Challenge 1: Find yourself on the map
 
 Goal: getting comfortable with the Carto interface
 
@@ -32,7 +32,7 @@ First, log into your account at <https://carto.com/login>. Once you are logged i
 
 Let's begin by building a data set, so you can get a sense of how those points get on the (digital) map.
 
-### Part 1, building a data set:
+## Part 1, building a data set:
 - In Carto, create an empty map. You do this by clicking on "New map" from the second toolbar while in your Carto dashboard. Then click on "Create Empty Map" on the right hand side. This will take a minutes.
 - From the dialogue that comes up, click "Add points"
 - The map will begin at the whole world. First zoom in (double click on the map, or click on the + sign on the left corner and click + drag the map to center it properly) until you can just see the UK. Zoom in a bit futher on to greater Birmingham. Notice how Carto gives you a number for your "zoom level" on the left hand side. You should eventually be on zoom level 10, centered on Birmingham.
@@ -48,7 +48,7 @@ Let's begin by building a data set, so you can get a sense of how those points g
 
 Once you have a table in data view that has 6 rows, you're ready to move on to the next step.
 
-### Part 2, visualising your data:
+## Part 2, visualising your data:
 - Switch to "Map View"
 - Zoom out until you can see all your points on the screen. The easiest way to do this is by clicking on the layer number ("1") to open the drawer for the menu.
 - Open up the "map layer wizard" toolbar on the right hand side (it may already be open as it's the default).
