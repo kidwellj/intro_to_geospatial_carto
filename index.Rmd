@@ -4,8 +4,8 @@ author: "Jeremy H. Kidwell"
 date: "2019-03-12"
 site: bookdown::bookdown_site
 documentclass: book
-# bibliography: [book.bib]
-# biblio-style: apalike
+bibliography: [book.bib]
+biblio-style: apalike
 link-citations: yes
 github-repo: kidwellj/intro_to_geospatial_carto
 url: 'http\://jeremykidwell.info/files/bookdown/intro_to_geospatial_carto/' 
@@ -13,7 +13,7 @@ description: "A brief OER lab/course intended to give Undergraduates a basic ori
 
 ---
 
-# Introduction to the module
+# Introduction to the module {-}
 
 This module has been designed to enable independent learners to gain a basic familiarity with data visualisation, using the CartoDB platform.
 
